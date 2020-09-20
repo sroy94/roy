@@ -31,9 +31,9 @@ h3 {
 }
 
 p {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 
-  font-family: adobe-garamond-pro, HelveticaNeue-Light, "Helvetica Neue Light",
+   font-family: adobe-garamond-pro, HelveticaNeue-Light, "Helvetica Neue Light",
     "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 .section__introduction {
@@ -96,7 +96,7 @@ p {
 .skills__container__content {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
   padding: 2em;
 }
 
@@ -225,10 +225,10 @@ p {
   .right_cloud {
     width: 100px;
   }
-  /* p {
-    font-size: 1.2em;
-    word-spacing: 2rem;
-  } */
+   p {
+    font-size: 1em;
+   
+  } 
 
   /* .section_main__header {
     color: #83bca7;
