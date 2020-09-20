@@ -203,7 +203,7 @@ p {
   .right_cloud {
     width: 100px;
   }
-  .section_main__header {
+  /* .section_main__header {
     color: #83bca7;
   }
   h3 {
@@ -236,7 +236,7 @@ p {
   .link a {
     text-decoration: none;
     color: #4bb29a;
-  }
+  } */
 }
 
 @media screen and (max-width: 360px) {
@@ -245,7 +245,7 @@ p {
   }
   .left_cloud,
   .right_cloud {
-    display: none;
+    width: 100px;
   }
 
   .skills__container__content {
