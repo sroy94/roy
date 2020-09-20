@@ -1,11 +1,15 @@
 * {
   margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 /* body {
   background-color: red;
 } */
-
+.container {
+  width: 65%;
+  margin: 0 auto;
+}
 .section_main__header {
   color: #fe8481;
   font-size: 5em;
@@ -22,16 +26,13 @@ h3 {
   color: #fe8472;
   /* #83bca7; */
   font-family: "Nunito", sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.5em;
   word-spacing: 0.2rem;
 }
 
 p {
   font-size: 1.5rem;
-  word-spacing: 0.2rem;
-  line-height: 2rem;
-  font-weight: 300;
-  box-sizing: border-box;
+
   font-family: adobe-garamond-pro, HelveticaNeue-Light, "Helvetica Neue Light",
     "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
@@ -101,7 +102,7 @@ p {
 
 .skills__img_container {
   display: flex;
-
+  margin-top: 20px;
   align-items: center;
   color: gray;
   font-size: 3em;
@@ -119,7 +120,7 @@ p {
   height: 150px;
 }
 .help__section {
-  padding-top: 150px;
+  padding-top: 70px;
   text-align: center;
 }
 
@@ -139,7 +140,9 @@ p {
   top: 50px;
   text-decoration: none;
 }
-
+/* .about {
+  font-size: 3em;
+} */
 .btn:active {
   transform: scale(0.98);
   /* Scaling button to 0.98 to its original size */
@@ -155,11 +158,12 @@ p {
 
 .footer__section {
   margin-top: 120px;
-  height: 120px;
+  height: 150px;
   background-color: #e5ecf6;
   padding: 30px;
   text-align: center;
   color: gray;
+  padding-bottom: 20;
 }
 .link {
   color: lightgray;
@@ -185,7 +189,8 @@ p {
     width: 150px;
   }
 
-  .skills__container__content ,.second{
+  .skills__container__content,
+  .second {
     flex-direction: column;
   }
   .description {
@@ -196,12 +201,11 @@ p {
   }
   p {
     font-size: 1.5em;
-    word-spacing: 0.2rem;
-    line-height: 2rem;
+
     font-weight: 300;
     box-sizing: border-box;
     font-family: adobe-garamond-pro, HelveticaNeue-Light, "Helvetica Neue Light",
-    "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+      "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   }
 }
 
@@ -213,25 +217,19 @@ p {
   .intro-container {
     padding-top: 100px;
   }
-  .skills__container__content ,.second {
+  .skills__container__content,
+  .second {
     flex-direction: column-reverse;
   }
   .left_cloud,
   .right_cloud {
     width: 100px;
   }
-  h3 {
-    font-size: 1.5em;
-  }
-  p {
-    font-size: 1em;
-    word-spacing: 0.2rem;
-    line-height: 2rem;
-    font-weight: 300;
+  /* p {
+    font-size: 1.2em;
+    word-spacing: 2rem;
+  } */
 
-    font-family: adobe-garamond-pro, HelveticaNeue-Light, "Helvetica Neue Light",
-    "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-  }
   /* .section_main__header {
     color: #83bca7;
   }
@@ -271,6 +269,8 @@ p {
 @media screen and (max-width: 200px) {
   body {
     width: 100%;
+    margin: 0 auto;
+    padding: 20px;
   }
   .left_cloud,
   .right_cloud {
