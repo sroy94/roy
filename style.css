@@ -8,11 +8,12 @@ body {
   margin: 0 auto;
 }
 .container {
-  width: 70%; 
+  width: 70%;
   margin: 0 auto;
 }
 .section_main__header {
-  color: crimson;
+  color:rgb(254, 132, 129);
+   /* #4bb29a; */
   font-size: 5em;
   /* font-family: "Special Elite", cursive; */
   font-family: "Sacramento", cursive;
@@ -20,11 +21,12 @@ body {
 h2 {
   font-size: 3em;
   font-family: "Nunito", sans-serif;
-  color: crimson;
+  color:rgb(254, 132, 129);
   /* #4bb29a;  */
 }
 h3 {
-  color: rgb(239 112 138);
+  color: rgb(254, 132, 114);;
+  /* rgb(239 112 138); */
   /* #83bca7; */
   font-family: "Nunito", sans-serif;
   font-size: 1.5em;
@@ -84,7 +86,7 @@ p {
 }
 .intro__container {
   text-align: center;
-  padding-top: 150px;
+  padding-top: 2em;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -111,7 +113,6 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
-
 }
 .skills__container__content {
   display: flex;
@@ -148,7 +149,8 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 8em;
+  margin-top: 5em;
+  text-align: center;
 }
 
 .help__section p {
@@ -272,6 +274,14 @@ p {
   .right_cloud {
     width: 200px;
   }
+  p {
+    font-size: 1.5em;
+
+    font-weight: 300;
+    box-sizing: border-box;
+    font-family: adobe-garamond-pro, HelveticaNeue-Light, "Helvetica Neue Light",
+      "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -342,7 +352,7 @@ p {
     height: 70vh;
   }
   .intro__container {
-    padding-top: 8em;
+    padding-top: 2em;
   }
   .skills__container__content,
   .second {
@@ -359,7 +369,11 @@ p {
   h3 {
     font-size: 4vw;
   }
-
+  .skills__image {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+  }
   /* p {
      width: 100%;
     font-size: 0.8em;
