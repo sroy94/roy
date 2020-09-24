@@ -199,10 +199,10 @@ p {
   .intro-container {
     padding-top: 100px;
   }
-  .section__introduction {
+  /* .section__introduction {
     background-color: #eee;
-    height: 80vh;
-  }
+    /* height: 100vh; */
+  } */
   .image__me {
     width: 150px;
   }
