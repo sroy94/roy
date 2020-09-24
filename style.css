@@ -199,17 +199,17 @@ p {
   .intro-container {
     padding-top: 100px;
   }
-  /* .section__introduction {
+  .section__introduction {
     background-color: #eee;
-    /* height: 100vh; */
-  } */
+    height: 100vh;
+  }
   .image__me {
     width: 150px;
   }
-  .left_cloud,
+  /* .left_cloud,
   .right_cloud {
     width: 150px;
-  }
+  } */
   .skills__container__content {
     /* display: flex; */
     width: 100%;
@@ -321,9 +321,9 @@ p {
     color: #545454;
     box-sizing: border-box;
     font-size: 2.4vw;
-    /* font-family: adobe-garamond-pro, HelveticaNeue-Light, "Helvetica Neue Light",
+    font-family: adobe-garamond-pro, HelveticaNeue-Light, "Helvetica Neue Light",
       "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-    font-weight: 300; */
+    font-weight: 300;
   }
   /* .intro-container {
     padding-top: 100px;
